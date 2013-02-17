@@ -1,0 +1,18 @@
+.bg_logo {
+	/*position:absolute;
+	right:0px;*/
+	float:right;
+}
+
+.banner {
+	padding-top: 20px
+}
+
+.nav {
+	padding-left: 10px
+}
+
+.motto {
+	text-align: center;
+	margin-bottom: 0px;
+}

@@ -9,10 +9,37 @@
 }
 
 .nav {
-	padding-left: 10px
+	padding-left: 10px;
+	li {
+		a {
+			color:white;
+		};
+	};
 }
 
 .motto {
 	text-align: center;
 	margin-bottom: 0px;
+}
+
+
+.nav {
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+.navbar-inverse .nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .nav > li > a:hover {
+  color: #0033CC;
+}
+
+.yardBlock {
+	padding-bottom:2em;
+}
+
+.map {
+	text-align: center;
 }

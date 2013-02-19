@@ -63,3 +63,10 @@
 .map {
 	text-align: center;
 }
+
+#brand_logos {
+	position:relative;
+	width:350px;
+	margin: 0 auto;
+	margin-bottom:2em;
+}

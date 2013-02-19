@@ -1,7 +1,27 @@
+.logoBox {
+	position: relative; 
+  width: 100%;
+}
+
 .bg_logo {
 	/*position:absolute;
 	right:0px;*/
 	float:right;
+}
+
+.fg_motto {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #DF0101;
+	text-shadow:0.07em 0.07em #6E6E6E;
+	position: absolute; 
+	line-height: 1.5em;
+	top: 0.7em; 
+	left: 3em; 
+	width: 100%;
+}
+
+.logoBox {
+
 }
 
 .banner {

@@ -2,12 +2,14 @@
 <html>
   <head>
     <title>DMM</title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link href="stylesheets/js-image-slider.css" rel="stylesheet" type="text/css" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="javascripts/jquery.js"><\/script>')</script>
     <script src="javascripts/bootstrap.js"></script>
+    <script src="javascripts/js-image-slider.js" type="text/javascript"></script>
   </head>
   <body>
     <div class="row-fluid">
@@ -15,8 +17,9 @@
         <img class="banner" src="images/banner.png">
         <div class="lead motto">For all your diesel marine needs!</div>
       </div>
-      <div class="span5">
+      <div class="span5 logoBox">
         <img class="bg_logo" src="images/logo_faded.png">
+        <h3 class="fg_motto text-center">The REAL<br>Diesel Marine<br>Maintenance!</h3>
       </div>
     </div>
     <div class="navbar navbar-inverse">
@@ -45,25 +48,41 @@
       <div class="span9 offset1 main">
 
         <section id="home">
-        <h3 class="lead">
-          Your boat is your escape machine, for the weekends and holidays<br>Keep it <strong>'good to go'</strong> with Diesel Marine Maintenance DMM
-        </h3>
-        <p>
-          When you buy a boat, its a big investment. You expect it will serve you for years to come. So when you need your boat serviced or repaired, you want a company who will treat your boats needs with care and thoroughness, someone you can trust, and that company is Diesel Marine Maintenance DMM.
-        </p>
-         <blockquote><p>
-          "We use quality parts and fluids and use preventative maintenance in our service schedules, which will keep your boat 'good to go' between services."
-         </p></blockquote>
-        <p>
-          We have a range of suppliers of parts and accessorries and the best support companies for a good range of products to repair or enhance your boat or yacht, keeping it in great condition and increasing the longevity of your boat.
-        </p>
-        <p> 
-          Diesel Marine Maintenance DMM has years of experience in boat repairs, and we are passionate about boats and seeing our customers right.  We can help you have years of enjoyment with your boat and are happy to be part of your dream. Call us today to find out more about what we can do for you.
-        </p>
-      </section>
+          <h3 class="lead text-center">
+            Your boat is your escape machine, for the weekends and holidays<br>Keep it <strong>'good to go'</strong> with Diesel Marine Maintenance DMM
+          </h3>          
+          <div id="sliderFrame">
+            <div id="slider">
+              <img src="images/slide1.jpg" alt="Welcome Diesel Marine Maintenance DMM, Mandurah" />
+              <img src="images/slide2.jpg" alt="Caption 2" />
+              <img src="images/slide3.jpg" alt="Caption 3" />
+              <img src="images/slide4.jpg" alt="Caption 4" />
+              <img src="images/slide5.jpg" alt="Caption 5" />
+              <img src="images/slide6.jpg" alt="Caption 6" />
+              <img src="images/slide7.jpg" alt="Caption 7" />
+              <img src="images/slide8.jpg" alt="Birdseye view of the harbour, Mandurah Ocean Marina is top left" />
+            </div>
+          </div>
+          <p>
+            When you buy a boat, its a big investment. You expect it will serve you for years to come. So when you need your boat serviced or repaired, you want a company who will treat your boats needs with care and thoroughness, someone you can trust, and that company is Diesel Marine Maintenance DMM.
+          </p>
+           <blockquote><p>
+            "We use quality parts and fluids and use preventative maintenance in our service schedules, which will keep your boat 'good to go' between services."
+           </p></blockquote>
+          <p>
+            We have a range of suppliers of parts and accessorries and the best support companies for a good range of products to repair or enhance your boat or yacht, keeping it in great condition and increasing the longevity of your boat.
+          </p>
+          <p> 
+            Diesel Marine Maintenance DMM has years of experience in boat repairs, and we are passionate about boats and seeing our customers right.  We can help you have years of enjoyment with your boat and are happy to be part of your dream. Call us today to find out more about what we can do for you.
+          </p>
+        </section>
 
       <section id="services">
         <div class="page-header"><h2>SERVICES</h2></div>
+        <img src="images/Yanmar_logo.jpg" alt="" />
+        <img src="images/Volvo_Penta_logo.png" alt="" />
+        <img src="images/Nanni_logo.png" alt="" />
+        <img src="images/Cummins_Marine_logo.png" alt="" />
       </section>
 
       <section id="tips">
@@ -76,6 +95,9 @@
           The yard has a Marine Trimmer, Shipwright, Electronics supply/installer, a Petrol and sterndrive/outboard repairer and us, whose role is to service and repair diesel engines, reverse gear, shafts rudders and other systems.   We don't do petrol or stern drives.  We do operate on saildrives and IPS.     The yard can be a one stop shop because any work not catered for by businesses within the yard, such as high voltage elec, aircon/refrigeration and stainless/ally fab work,  can be easily sourced locally and done on site.
         </p>
         <h3>Mandurah Ocean Marina 'In Yard' Services:</h3>
+        <div id="sliderFrame">
+          <img src="images/marina_birdseye.jpg" alt="" />
+        </div>
         <div class="row-fluid yardBlock">
           <div class="span4">
             <strong>Diesel Marine Maintenance DMM</strong><br>

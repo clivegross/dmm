@@ -1,4 +1,5 @@
-var url = "http://free.worldweatheronline.com/feed/marine.ashx?q=-32.50,115.70&format=json&key=c3013999bf225925122409&callback=?"
+var url = "http://api.worldweatheronline.com/free/v1/marine.ashx?q=-32.50,115.70&format=json&key=wg4u6jv44n7daa6tdnb4ac2z&callback=?"
+
 //function to roundup current time to nearest 3 hours and convert to timecode (0-7)
 function getTimeCode(h) {
 	if (h<4) {t=1;}

@@ -508,9 +508,11 @@ Exhaust flaps fitted will help, but they are not sufficient alone.
         for (var i=0;i<elementArray.length;i++) {
           var e = document.getElementById(elementArray[i]);
           if (eShow == e) {
+            console.log("in if block");
             e.style.display = 'block';
           }            
           else {
+            console.log("in else block");
             e.style.display = 'none';
           }; 
         };

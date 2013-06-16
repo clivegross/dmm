@@ -503,10 +503,10 @@ Exhaust flaps fitted will help, but they are not sufficient alone.
   <script type="text/javascript">
   //<!--
       function toggle_visibility(idShow) {
-        var eShow = document.getElementsByTagName(idShow);
+        var eShow = document.getElementById(idShow);
         var elementArray = ['home', 'services', 'yard', 'tips', 'find'];
         for (var i=0;i<elementArray.length;i++) {
-          var e = document.getElementsByName(elementArray[i]);
+          var e = document.getElementById(elementArray[i]);
           if (eShow == e) {
             console.log("in if block");
             e.style.display = 'block';
